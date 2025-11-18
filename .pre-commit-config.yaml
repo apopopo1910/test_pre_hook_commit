@@ -1,0 +1,7 @@
+# .pre-commit-config.yaml
+repos:
+- repo: https://github.com/psf/black
+  rev: 24.3.0  # Utilisez la dernière version stable
+  hooks:
+    - id: black
+      # Vous pouvez ajouter args: [--line-length=79] si vous voulez une longueur de ligne différente (88 par défaut)
